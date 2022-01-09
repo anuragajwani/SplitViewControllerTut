@@ -13,6 +13,8 @@
 		1B87DE83278B5060000A3C8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B87DE81278B5060000A3C8A /* LaunchScreen.storyboard */; };
 		1B87DE8B278B5132000A3C8A /* PrimaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B87DE8A278B5132000A3C8A /* PrimaryViewController.swift */; };
 		1B87DE8D278B5155000A3C8A /* SecondaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B87DE8C278B5155000A3C8A /* SecondaryViewController.swift */; };
+		1B87DE8F278B521D000A3C8A /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B87DE8E278B521D000A3C8A /* Email.swift */; };
+		1B87DE91278B528E000A3C8A /* EmailSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B87DE90278B528E000A3C8A /* EmailSplitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1B87DE84278B5060000A3C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B87DE8A278B5132000A3C8A /* PrimaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryViewController.swift; sourceTree = "<group>"; };
 		1B87DE8C278B5155000A3C8A /* SecondaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryViewController.swift; sourceTree = "<group>"; };
+		1B87DE8E278B521D000A3C8A /* Email.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
+		1B87DE90278B528E000A3C8A /* EmailSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailSplitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				1B87DE84278B5060000A3C8A /* Info.plist */,
 				1B87DE8A278B5132000A3C8A /* PrimaryViewController.swift */,
 				1B87DE8C278B5155000A3C8A /* SecondaryViewController.swift */,
+				1B87DE8E278B521D000A3C8A /* Email.swift */,
+				1B87DE90278B528E000A3C8A /* EmailSplitViewController.swift */,
 			);
 			path = SplitViewControllerTut;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B87DE91278B528E000A3C8A /* EmailSplitViewController.swift in Sources */,
 				1B87DE77278B505F000A3C8A /* AppDelegate.swift in Sources */,
+				1B87DE8F278B521D000A3C8A /* Email.swift in Sources */,
 				1B87DE8B278B5132000A3C8A /* PrimaryViewController.swift in Sources */,
 				1B87DE79278B505F000A3C8A /* SceneDelegate.swift in Sources */,
 				1B87DE8D278B5155000A3C8A /* SecondaryViewController.swift in Sources */,

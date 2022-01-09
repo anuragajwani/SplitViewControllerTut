@@ -22,6 +22,10 @@ class SecondaryViewController: UIViewController {
         self.setupSubviews()
     }
     
+    func showEmail(_ email: Email) {
+        self.label.text = email.contents
+    }
+    
     private func setupSubviews() {
         self.setupLabel()
     }
